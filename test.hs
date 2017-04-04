@@ -14,4 +14,4 @@ manDist :: (Int ,Int) -> (Int,Int) -> Int
 manDist (a,b) (c,d) = abs (a-c) + abs (b-d)
 
 solve :: [(Int,Int)] -> (Int,Int) -> Int
-solve xs a=fst $ minimumBy (compare `on` (manDist a).snd) (zip [1..] xs)
+solve xs a=fst $ minimumBy (compare `on` (manDist a).snd) (zip [1..] xs)Vkkkkkkkkkkkkkkkkhhhhhhhh
